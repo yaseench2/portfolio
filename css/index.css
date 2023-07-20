@@ -45,13 +45,16 @@ img{
 }
 .Admin :hover{
   box-shadow: 2px 2px 1px #000000e5;
-  transform: scale(1.10)
+  transform: scale(1.10);
+  transition: all .1s ease 0s;
 }
 .card :hover{
     background-color: rgb(236, 222, 222);
+    transition: all .1s ease 0s;
 }
 .listitem :hover{
     background-color: rgb(236, 222, 222);
+    transition: all .1s ease 0s;
 }
 .card-body {
     flex: 1 1 auto;
@@ -172,7 +175,9 @@ img{
 
   }
   .btn--action:hover {
-    background-color: white;    
+    background-color: white;
+    box-shadow: 0 3px #00ff33;
+    transition: all .1s ease 0s;
   }
   
   .btn--action:hover span:before{
